@@ -48,28 +48,30 @@
         .box{
             width:300px;
             height:auto;
-            /*border:1px solid #604D42;*/
             float:right;
             margin-top: 120px;
             margin-right:40px;
-            border-collapse: collapse;
         }
         ul{
             list-style: none;
-            width:300px;
+            width:298px;
             height:auto;
+            margin-right:40px;
         }
         li{
             width:298px;
-            height:20px;
+            height:40px;
+            margin:0 auto;
             border:1px solid #604D42;
-            margin-left:-40px;
             text-align:center;
-            line-height:20px;
+            line-height:40px;
+            font-size: 18px;
             border-collapse: collapse;
             color:#F7AB52;
             cursor:pointer;
-            margin-top:1px;
+            margin-top:10px;
+            margin-right:40px;
+            background:#548084;
         }
     </style>
 </head>
@@ -77,14 +79,12 @@
 <div class="scene"></div>
 <div class="box">
     <ul>
-    	<li>开始</li>
-        <li>关卡</li>
+    	<li class="start">开始</li>
         <li>1</li>
-        <li>生命</li>
+        <li>关卡</li>
         <li>暂停</li>
-        <li>3</li>
-        <li>成绩</li>
         <li>0</li>
+        <li>分数</li>
     </ul>
 </div>
 </body>
@@ -104,7 +104,7 @@
         $.each(snackArr, function (index, value) {
             $("#" + value.x + "-" + value.y).addClass("snackbody");
         });
-        $("#" + snackHead.x + "-" + snackHead.y).addClass("snackhead");
+            $("#" + snackHead.x + "-" + snackHead.y).addClass("snackhead");
     }
     drawSnack();
     var dir="r";

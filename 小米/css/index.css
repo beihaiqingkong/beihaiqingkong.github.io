@@ -445,49 +445,6 @@ aside .jiantou {
 	border-left: 0;
 	box-shadow: 0 0 10px #ccc;
 }
-.xuanx-1{
-	width: 795px;
-}
-.xuanx-2{
-	width: 530px;
-	background: red;
-}
-.xuanx-3{
-	width: 265px;
-	background: orange;
-}
-.xuanx-4{
-	width: 992px;
-	background: yellow;
-}
-.xuanx-5{
-	width: 530px;
-	background: green;
-}
-.xuanx-6{
-	width: 530px;
-	background: blue;
-}
-.xuanx-7{
-	width: 265px;
-	background: #258;
-}
-.xuanx-8{
-	width: 992px;
-	background: #330;
-
-}
-.xuanx-9{
-	width: 530px;
-	background: #440;
-
-
-}
-.xuanx-10{
-	width: 530px;
-	background: #990;
-	
-}
 .xianshi{
 	display: block;
 }
