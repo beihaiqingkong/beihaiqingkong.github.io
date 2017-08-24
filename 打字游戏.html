@@ -84,8 +84,8 @@
                 <div class="name">生命值</div>
                 <div class="con" id="life">5</div>
             </div>
-            <input type="button" class="start" value="开始">
-            <input type="button" class="end" value="暂停">
+            <div class="start">开始</div>
+            <div class="end">暂停</div>
         </div>
     </div>
 </body>
@@ -95,8 +95,8 @@
     let scor=document.querySelector("#scor");
     let state=document.querySelector("#state");
     let life=document.querySelector("#life");
-    let push=document.querySelector("#end");
-    console.log(push);
+    let end=document.querySelector(".end");
+    console.log(end);
     class Game{
         constructor(left,scor,state,life){
             this.left=left;
@@ -112,7 +112,7 @@
             this.speed=5;
             this.st=null;
             this.height=window.innerHeight;
-            this.push=push;
+            this.end=end;
         }
         //在原型身上添加的方法
         start(){
@@ -204,6 +204,16 @@
                 this.speed++;
             }
         }
+           pause(){
+            clearInterval(this.st 
+
+);
+            document.removeEventListener("keydown",this.keydownHandler);
+        }
+        run(){
+            this._move();
+            document.addEventListener("keydown",this.keydownHandler);
+        }
 
         _gameover(){
             alert(`游戏结束，得分${this.scornum}`);
@@ -219,18 +229,24 @@
             this.flag=true;
         }
     }
+         let game=new Game(left,scor,state,life);
+          start.onclick=function () {
+            if(game.flag){
+                game.flag=false;
+                game.start();
+            }
+        }
+        let flag=true;
+        end.onclick=function () {
+            if(flag){
+                game.pause();
+                this.innerHTML="继续";
 
-    let game=new Game(left,scor,state,life);
-    
-   let flag=true;
-    start.onclick=function () {
-       if(game.flag){
-           game.flag=false;
-           game.start();
-          // this.style.color="#ccc";
-    }
-    }
-
-
+            }else {
+                game.run();
+                this.innerHTML="暂停";
+            }
+            flag=!flag;
+        } 
 </script>
 </html>
