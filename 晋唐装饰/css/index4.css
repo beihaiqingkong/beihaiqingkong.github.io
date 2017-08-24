@@ -1,0 +1,297 @@
+
+.logo{
+	width:100%;
+	height:150px;
+	border-bottom: 1px solid #CECECE;
+}
+.kuan{
+	width:1200px;
+	height:150px;
+	margin: 0 auto;
+}
+.kuan>a{
+	float:left;
+}
+.logo-right{
+	width:309px;
+	height:144px;
+	float:right;
+}
+.logo-right span{
+	padding-left: 5px;
+    font-size: 30px;
+    color: #f04046;
+    display: block;
+    margin-top: 34px;
+    float:left;
+}
+.logo-right img{
+	float: left;
+	display: block;
+	margin-top: 40px;
+}
+.nav{
+	width:100%;
+	height:66px;
+/*	background:red;*/
+}
+.kuan1{
+	width: 1008px;
+    height: 66px;
+    margin: 0 auto;
+/*    background:green;*/
+}
+.kuan1 ul li {
+    width: 126px;
+    height: 66px;
+    line-height: 61px;
+    text-align: center;
+    float: left;
+    background:white;
+}
+.kuan1 ul li:hover{
+	background:#FF4E54;
+}
+/*导航和logo部分结束*/
+/*banner部分开始*/
+.banner1{
+	width:100%;
+	height:277px;
+}
+.kuan2{
+	width:1200px;
+	height:277px;
+	margin:0 auto;
+}
+.kong2{
+	width:100%;
+	height:36px;
+}
+/*banner部分结束*/
+/*内容开始*/
+.content{
+	width:1150px;
+	height:571px;
+	margin:0 auto;
+/*	overflow: hidden;*/
+}
+.content-left{
+	float:left;
+	width:228px;
+	height:571px;
+	/*overflow: hidden;*/
+}
+.lanmu{
+	width:228px;
+	height:58px;
+	text-align: center;
+	font-size:20px;
+	line-height: 58px;
+	color:white;
+	background:#FF575D;
+}
+.hua{
+	float:left;
+	margin-left:40px;
+}
+.hua1{
+	float:left;
+	margin-left:20px;
+	margin-top: -3px;
+}
+.lanmu2{
+	width:228px;
+	height:auto;
+	background:#FF575D;
+	border-top:3px solid white;
+}
+.aa{
+	display:block;
+	width:198px;
+	height:33px;
+	background:white;
+	text-align: center;
+	line-height: 33px;
+	font-size: 16px;
+	margin: 0 auto;
+	margin-top:10px;
+}
+.bb{
+	display:block;
+	width:198px;
+	height:33px;
+	background:white;
+	text-align: center;
+	line-height: 33px;
+	font-size: 16px;
+	margin: 0 auto;
+	margin-top:16px;
+}
+.lanmu3	{
+	width:228px;
+	height:139px;
+	position:relative;
+	color:white;
+	font-size:26px;
+	text-align: center;
+	line-height:120px;
+}
+.lanmu3>span{
+	position:absolute;
+	top:60px;
+	left:30px;
+}
+.kong3{
+	width:100%;
+	height:11px;
+}
+.lanmu4{
+	width:100%;
+	height:46px;
+	background:#FF575D;
+	text-align: center;
+	line-height: 46px;
+}
+.lanmu4>.hua{
+	font-size:18px;
+}
+.lanmu4>.hua1{
+	font-size: 20px;
+	color:white;
+	margin-top: -3px;
+}
+.lanmu5{
+	width:226px;
+	height:auto;
+	border:1px solid #FF575D;
+	font-size:12px;
+}
+.lanmu5 ul{
+	width: 202px;
+    margin: 0 auto;
+}
+.lanmu5 ul li{
+	width: 202px;
+    height: 25px;
+    line-height: 25px;
+}
+.lanmu5 ul li a{
+    color: #505050;
+    cursor: pointer;
+}
+/*第四页左边结束*/
+/*第四页右边开始*/
+.content-right{
+	width:890px;
+	height:auto;
+	float:left;
+	margin-left:30px;
+}
+.jieshao{
+	width:100%;
+	height:55px;
+	padding-top: 10px;
+	position:relative;
+	line-height:55px; 
+}
+.jieshao>.zuo1{
+	position:absolute;
+	left:50px;
+	top:-5px;
+	font-size: 18px;
+}
+.jieshao>.you1{
+	position:absolute;
+	right:10px;
+	top:-5px;
+	font-size:12px;
+}
+.kong4{
+	width:100%;
+	height:33px;
+}
+.about{
+	width:890px;
+	height:auto;
+	margin: 0 auto;
+}
+.about ul{
+	width:100%;
+	height:241px;
+}
+.about ul li{
+	width:296px;
+	height:241px;
+	float:left;
+}
+.about ul li a{
+	display:block;
+	width:296px;
+	height:241px;
+}
+.about ul li a img{
+	width:297px;
+	height:192px;
+}
+.about ul li a p{
+	width:273px;
+	height:48px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 18px;
+}
+.kongqi{
+	height:19px;
+}
+/*第四页右边结束*/
+/*反野开始*/
+.fanye{
+	text-align: center;
+}
+.fanye .select {
+    background: #ff575d;
+    color: #fff;
+}
+.fanye a{
+	padding: 4px 8px;
+    margin-right: 5px;
+    font-family: "宋体";
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    line-height: 14px;
+}
+.clear{
+	clear: both;
+    font-size: 0;
+}
+/*反野结束*/
+/*底部开始*/
+.foot{
+	width:100%;
+	height:140px;
+	background:#333333;
+	margin-top:300px;
+	font-size: 12px;
+}
+.foot-inner{
+	width:1200px;
+	height:140px;
+	margin: 0 auto;
+}
+.foot-inner-left{
+	width:634.16px;
+	height:75px;
+	margin-top:35px;
+	float:left;
+}
+.foot-inner-left span{
+	color:white;
+}
+.foot-inner-right{
+	width:400px;
+	height:75px;
+	margin-top:35px;
+	float:right;
+}
+/*底部结束*/
